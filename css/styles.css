@@ -1,0 +1,45 @@
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+
+  --transparent-white: hsla(0, 0%, 100%, 0.75); /* paragraphs */
+  --very-light-gray: hsl(0, 0%, 95%); /* background, headings, buttons */
+
+  --ff-lexend-deca: 'Lexend Deca', sans-serif;
+  --ff-big-shoulders-display: 'Big Shoulders Display', sans-serif;
+
+  --fw-400: 400;
+  --fw-700: 700;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+optgroup,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 15px;
+}
