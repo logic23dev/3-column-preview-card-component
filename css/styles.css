@@ -41,5 +41,99 @@ select {
 
 body {
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--ff-lexend-deca);
+  font-weight: var(--fw-400);
   font-size: 15px;
+  color: var(--transparent-white);
+  line-height: 1.7;
+  background-color: var(--very-light-gray);
+}
+
+main {
+  display: flex;
+}
+
+.card {
+  max-width: 310px;
+  padding: 50px;
+}
+
+.card h2 {
+  text-transform: uppercase;
+  font-family: var(--ff-big-shoulders-display);
+  font-size: 40px;
+  font-weight: var(--fw-700);
+  color: var(--very-light-gray);
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.card-sedans {
+  background-color: var(--bright-orange);
+  border-radius: 10px 0 0 10px;
+}
+
+.card-suvs {
+  background-color: var(--dark-cyan);
+}
+
+.card-luxury {
+  background-color: var(--very-dark-cyan);
+  border-radius: 0 10px 10px 0;
+}
+
+.button {
+  background-color: var(--very-light-gray);
+  border: 2px solid var(--very-light-gray);
+  padding: 13px 30px;
+  border-radius: 35px;
+  margin-top: 85px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.button:hover {
+  background-color: transparent;
+  color: var(--very-light-gray);
+}
+
+.card-sedans button {
+  color: var(--bright-orange);
+}
+
+.card-suvs button {
+  color: var(--dark-cyan);
+}
+
+.card-luxury button {
+  color: var(--very-dark-cyan);
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    padding: 80px 0;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    max-width: 330px;
+  }
+
+  .card-sedans {
+    border-radius: 10px 10px 0 0;
+  }
+
+  .card-luxury {
+    border-radius: 0 0 10px 10px;
+  }
+
+  .button {
+    margin-top: 25px;
+  }
 }
