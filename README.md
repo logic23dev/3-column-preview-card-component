@@ -4,8 +4,8 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ### Links
 
-- Solution URL: [Click here!]()
-- Live Site URL: [Click here!]()
+- Solution URL: [Click here!](https://github.com/logic23dev/3-column-preview-card-component)
+- Live Site URL: [Click here!](https://logic23dev.github.io/3-column-preview-card-component/)
 
 ### Built with
 
